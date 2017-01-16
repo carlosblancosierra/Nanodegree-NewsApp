@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="guardian_sections_entries">
+        <item>Books</item>
+        <item>Business</item>
+        <item>Fashion</item>
+        <item>Film</item>
+        <item>Environment</item>
+    </string-array>
+
+    <string-array name="guardian_sections_entries_values">
+        <item>books</item>
+        <item>business</item>
+        <item>fashion</item>
+        <item>film</item>
+        <item>environment</item>
+    </string-array>
+
+    <string-array name="orber_by_entries">
+        <item>Newest</item>
+        <item>Relevance</item>
+    </string-array>
+
+    <string-array name="orber_by_entries_values">
+        <item>newest</item>
+        <item>relevance</item>
+    </string-array>
+
+</resources>

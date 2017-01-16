@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_section_default"
+        android:entries="@array/guardian_sections_entries"
+        android:entryValues="@array/guardian_sections_entries_values"
+        android:key="@string/settings_section_key"
+        android:title="@string/settings_section" />
+
+    <ListPreference
+        android:defaultValue="@string/order_by_default"
+        android:entries="@array/orber_by_entries"
+        android:entryValues="@array/orber_by_entries_values"
+        android:key="@string/order_by_key"
+        android:title="@string/order_by_title" />
+</PreferenceScreen>
